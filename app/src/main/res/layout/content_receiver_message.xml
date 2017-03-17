@@ -8,11 +8,6 @@
     tools:context="aryukov.ru.lesson1.MainActivity"
     tools:showIn="@layout/activity_receieve_message">
 
-    <TextView
-        android:id="@+id/messageForSend"
-        android:text="@string/message"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
     <EditText
         android:id="@+id/editText"

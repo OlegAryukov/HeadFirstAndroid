@@ -10,23 +10,40 @@
 
 
     <Button
-        android:id="@+id/send"
+        android:id="@+id/onStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/send"
-        android:onClick="onSendMesssage"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
+        android:text="@string/start"
+        android:onClick="onClickStart"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintVertical_bias="0.189" />
-
-    <EditText
-        android:id="@+id/messageToSend"
+        tools:layout_editor_absoluteX="161dp"
+        android:layout_marginBottom="445dp" />
+    <Button
+        android:id="@+id/onStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="280dp"
-        tools:layout_editor_absoluteX="195dp"
+        android:text="@string/stop"
+        android:onClick="onClickStop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="161dp"
+        android:layout_marginBottom="379dp" />
+
+    <Button
+        android:id="@+id/onRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:onClick="onClickReset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="161dp"
+        android:layout_marginBottom="304dp" />
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="174dp"
+        android:layout_height="51dp"
+        tools:layout_editor_absoluteY="36dp"
+        tools:layout_editor_absoluteX="118dp"
         android:ems="10"/>
 
 

@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class ReceieveMessageActivity extends AppCompatActivity {
 
-    @Override
+    /*@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_receieve_message);
@@ -15,5 +15,5 @@ public class ReceieveMessageActivity extends AppCompatActivity {
         String messageTaext = intent.getStringExtra(TEXT_SERVICES_MANAGER_SERVICE);
         TextView messageView = (TextView) findViewById(R.id.messageForSend);
         messageView.setText(messageTaext);
-    }
+    }*/
 }
